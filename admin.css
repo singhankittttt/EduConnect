@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    color: #0F0F0F;
+  }
+  
+  body {
+    background-color: #F3EEE3;
+  }
+
+
+  .button {
+  background-color: #F00B0B; /* Green */
+  border: none;
+  color: #F5E7E7;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.button2 {background-color: #F00B0B(12, 11, 11, 0.82);} /* Blue */
+.button3 {background-color: #F00B0B;} /* Red */ 
+

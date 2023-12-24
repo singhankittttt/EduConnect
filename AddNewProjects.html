@@ -1,0 +1,159 @@
+<!DocTYPE html>
+<html>
+
+<head>
+<title>Add Projects</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/boot.css">
+<link rel="Stylesheet" type="text/css" href="css/addProject.css">
+
+</head>
+
+<body>
+	<form action="ProjectsAddedSuccessfully.html">
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#section-a">Project Management
+						System</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li class="active"><a href="dashboard.jsp">Back</a></li>
+
+
+
+				</ul>
+
+
+
+			</div>
+		</nav>
+	</form>
+
+	<style>
+body {
+	background-image: url('blurimg3.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.imgbg1 {
+	background-image: url("img/teamproject.png");
+	background-position: right bottom, left top; background-repeat :
+	no-repeat;
+	background-size: 350px, 350px;
+	background-repeat: no-repeat;
+}
+</style>
+
+	<h1 align="center">Add New Projects</h1>
+	<br>
+	<div id="bck">
+		<div class="container">
+			<form action="addnewproject" method="post">
+				<div class="input-group">
+					<label for="sname" class="mb-2 mr-sm-2">Project Name:</label> <input
+						id="pname" type="text" class="form-control" name="ptitle"
+						placeholder="Enter Project Name" required>
+				</div>
+				<br>
+
+				<!--   <div class="dropdown">
+            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Project Type
+            <span class="caret"></span></button>
+            <ul class="dropdown-menu">
+              <input
+              id="ptype" type="radio" class="form" name="ptype" value="Web Application"
+              required>Web Application &nbsp;&nbsp;<br><input id="ptype" type="radio"
+              class="form" name="ptype" value="Console" required>Console
+          &nbsp;<br><input id="ptype" type="radio"
+          class="form" name="ptype" value="IOT " required>IOT
+          &nbsp;<br><input id="ptype" type="radio"
+          class="form" name="ptype" value="Android Application" required>Android Application
+      &nbsp;
+            </ul>
+          </div> -->
+				<div id="imgbg1">
+					<div class="input-group">
+						<label for="sname" class="mb-2 mr-sm-2">Project Type :</label>
+
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="type"
+								id="inlineRadio1" required value="Web Application"> <label
+								class="form-check-label" for="inlineRadio1">Web
+								Application</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="type"
+								id="inlineRadio2" required value="Console Based"> <label
+								class="form-check-label" for="inlineRadio2">Console
+								Based</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="type" id="iot"
+								required value="IOT"> <label class="form-check-label"
+								for="iot">IOT</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<input class="form-check-input" type="radio" name="type" id="app"
+								required value="Android Application"> <label
+								class="form-check-label" for="app">Android Application</label>
+						</div>
+					</div>
+					<br>
+
+					<div class="input-group">
+						<label for="pabt" class="mb-2 mr-sm-2">Team Members
+							USN(S):</label> <input id="pabt" type="text" class="form-control"
+							name="team" placeholder="Enter Team Members USN(S)" required>
+					</div>
+					<br> <br>
+
+					<div class="input-group">
+						<label for="pabt" class="mb-2 mr-sm-2">Project Abstract:</label> <input
+							id="pabt" type="text" class="form-control" name="abs"
+							placeholder="Enter Project Abstract" required>
+					</div>
+					<br>
+
+
+
+
+
+
+
+
+					<div>
+						<!--  <a href="ProjectsAddedSuccessfully.html"><button type="submit"class="SUBMITbtn">Submit</button></a>
+            &nbsp; -->
+						<button class="btn btn-success">Add New Project</button>
+						&nbsp;
+						<button type="reset" class="btn btn-warning" name="reset"
+							value=" Clear ">Clear</button>
+					</div>
+					<br>
+			</form>
+		</div>
+	</div>
+	<br>
+	<br>
+	<br>
+	<br>
+
+	</div>
+
+
+
+</body>
+
+</html>

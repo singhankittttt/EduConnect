@@ -1,0 +1,75 @@
+<!DocTYPE html>
+<html>
+
+<head>
+<title>Admin Dashboard</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/boot.css">
+<link rel="stylesheet" type="text/css" href="css/admin.css">
+<style>
+</style>
+
+</head>
+
+<body>
+	<form action="login.html">
+
+		<nav class="navbar navbar-inverse">
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<a class="navbar-brand" href="#section-a">Project Management
+						System</a>
+				</div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="admin-dashboard.html">Home</a></li>
+					<li><a href="admin-dashboard.html"> <span
+							class="glyphicon glyphicon-refresh"></span>
+					</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="logout.jsp">Logout &nbsp;<span
+							class="glyphicon glyphicon-off"></span></a></li>
+				</ul>
+			</div>
+		</nav>
+	</form>
+	<style>
+body {
+	background-image: url('blurimg4.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+</style>
+	<h1 align="center">Welcome Admin</h1>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<div class="container">
+		<a href="pending">
+			<button class="btn btn-warning" style="margin-left: 80px;">Show
+				Pending Projects</button>
+		</a> <a href="approved">
+			<button class="btn btn-primary" style="margin-left: 80px;">Show
+				Approved Projects</button>
+		</a> <a href="rejected">
+			<button class="btn btn-danger" style="margin-left: 80px;">Show
+				Rejected Projects</button>
+		</a> <a href="showallprojects">
+			<button class="btn btn-primary" style="margin-left: 80px;">Show
+				All Projects</button>
+		</a>
+	</div>
+</body>
+</html>

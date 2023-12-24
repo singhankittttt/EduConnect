@@ -1,0 +1,27 @@
+.mrc {
+    color: green;
+    size: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0px;
+    padding-top: 25px;
+    padding-left: 35%;
+}
+
+.grid {
+    padding-top: 20%;
+}
+
+.mrc1 {
+    color: green;
+    size: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: 0px;
+    padding-top: 25px;
+    padding-left: 25%;
+}
+body{
+    background-image: url(images/images1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

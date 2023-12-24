@@ -1,0 +1,68 @@
+h1 {
+    text-align: center;
+    color: green;
+  }
+  
+  body {
+    background-color: #cccccc;
+  }
+
+
+  .dropbtn {
+background-color: #EAFDEA;
+color: #080808;
+padding: 16px;
+font-size: 16px;
+border: none;
+}
+
+.dropdown {
+position: relative;
+display: inline-block;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #EEE3E3;
+min-width: 350px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+color: rgb(250, 241, 241);
+padding: 50px 56px;
+text-decoration: none;
+display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #E9DADA;}
+
+.SUBMITbtn {
+  background-color: #F3392C;
+  color: #FFFFFF;
+  padding: 16px 20px;
+  margin: 4px 0;
+  border: none;
+  cursor: pointer;
+  width: 15%;
+  opacity: 0.9;
+  border-radius: 16px;
+}
+
+.SUBMITbtn:hover {
+  opacity: 1;
+}
+
+#bck {
+  background-image: url(images/img.jpg);
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+ background-size: 300px, 350px;
+}
+  
